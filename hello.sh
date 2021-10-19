@@ -1,1 +1,2 @@
-echo "Hello World";
+read name;
+echo "Hello $name";
