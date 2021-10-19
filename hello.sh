@@ -1,6 +1,6 @@
 read name;
 echo "Hello $name";
-if [ true ]
- then
-    echo "run"
-fi
+for ((i=0; i < 10 ; i++))
+do
+echo $i
+done
